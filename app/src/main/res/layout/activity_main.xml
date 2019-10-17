@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/corFunda"
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20sp"
+        android:background="#fff">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            android:layout_marginTop="30dp"
+            />
+
+        <ImageButton
+            android:id="@+id/ibtFoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/addfoto"
+            android:layout_marginTop="30sp"
+            android:background="@drawable/moldura"
+            android:layout_marginLeft="78sp"
+            android:padding="10sp"/>
+
+        <TextView
+            android:layout_marginTop="10sp"
+            android:id="@+id/txtPeople"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="people "
+            android:textSize="50sp" />
+
+    </LinearLayout>
+</LinearLayout>
